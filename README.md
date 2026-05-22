@@ -1,5 +1,34 @@
-# Vue 3 + TypeScript + Vite
+# 🌤️ Прогноз погоды
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Приложение для просмотра прогноза погоды с выбором города.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+**Демо:** [https://weather-app-oldremain.netlify.app](https://weather-app-oldremain.netlify.app)
+
+## Возможности
+
+- 🔍 Поиск города с автодополнением
+- 🌡️ Текущая погода: температура, ощущаемая температура, влажность, ветер, осадки
+- ⏱️ Почасовой прогноз на ближайшие 12 часов
+- 📅 Прогноз на 7 дней
+- 📱 Адаптивный дизайн
+
+## Стек
+
+- **Vue 3** + Composition API
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Vite**
+- **Open-Meteo API** (бесплатный, без ключей)
+
+## Запуск
+
+```bash
+npm install
+npm run dev
+```
+
+## Сборка
+
+```bash
+npm run build
+```
